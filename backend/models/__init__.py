@@ -18,3 +18,4 @@ from .Curso_Habilidad import CursoHabilidad
 from .Expediente import Expediente
 from .Intercambio_Habilidad import IntercambioHabilidad
 from .llamadas import Llamada
+from .perfil_habilidad import perfilHabilidad
