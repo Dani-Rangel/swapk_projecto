@@ -14,7 +14,7 @@ class TipoEnum(str, enum.Enum):
 class IntercambioHabilidad(Base):
     __tablename__ = "intercambio_habilidad"
     id = Column(Integer, primary_key=True)
-    intercambio_id = Column(Integer, ForeignKey("intercambio.id"))
+    intercambio_id = Column(Integer, ForeignKey("intercambios.id"))
     habilidad_id = Column(Integer, ForeignKey("habilidad.id"))
     tipo = Column(Enum(TipoEnum))
     nivel = Column(Enum(NivelEnum))

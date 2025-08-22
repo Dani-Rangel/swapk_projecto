@@ -1,6 +1,5 @@
 from backend.db import Base
 from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, Text, Boolean, Enum
-from sqlalchemy.orm import relationship
 import enum
 
 class Perfil(Base):
